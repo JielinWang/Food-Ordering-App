@@ -20,7 +20,7 @@ const Navbar = () => {
                     </Link>
                     <li className={styles.listItem}>Products</li>
                     <li className={styles.listItem}>Menu</li>
-                    <Image src="/img/LULUS-PIZZA-LOGO-2-COLOR.png" alt="brand_logo" width={230} height={130} />
+                    <Image src="/img/Logo.png" alt="brand_logo" width={230} height={130} />
                     <li className={styles.listItem}>Events</li>
                     <li className={styles.listItem}>Blog</li>
                     <li className={styles.listItem}>Contact</li>
@@ -30,6 +30,7 @@ const Navbar = () => {
                 <div className={styles.item}>
                     <div className={styles.cart}>
                         <Image src="/img/cart.png" alt="cart_logo" width={35} height={35} />
+                        <div className={styles.counter}>2</div>
                     </div>
                 </div>
             </Link>
