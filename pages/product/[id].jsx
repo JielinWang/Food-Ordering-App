@@ -1,17 +1,43 @@
 import styles from "../../styles/Product.module.css";
 import Image from "next/image";
 import { useState } from "react";
+import axios from "axios";
+import { useDispatch } from "react-redux";
+import { addProduct } from "../../redux/cartSlice";
 
-const Product = () => {
+const Product = ({ pizza }) => {
+  const [price, setPrice] = useState(pizza.prices[0]);
   const [size, setSize] = useState(0);
+  const [quantity, setQuantity] = useState(1);
+  const [extras, setExtras] = useState([]);
+  const dispatch = useDispatch();
 
-  const pizza = {
-    id: 1,
-    img: "/img/pizza.png",
-    name: "hawaii pizza",
-    price: [19.9, 23.9, 27.9],
-    desc: "sweet",
+  const changePrice = (number) => {
+    setPrice(price + number);
   };
+
+  const handleSize = (sizeIndex) => {
+    const difference = pizza.prices[sizeIndex] - pizza.prices[size];
+    setSize(sizeIndex);
+    changePrice(difference);
+  };
+
+  const handleChange = (e, option) => {
+    const checked = e.target.checked;
+
+    if (checked) {
+      changePrice(option.price);
+      setExtras((prev) => [...prev, option]);
+    } else {
+      changePrice(-option.price);
+      setExtras(extras.filter((extra) => extra._id !== option._id));
+    }
+  };
+
+  const handleClick = () => {
+    dispatch(addProduct({ ...pizza, extras, price, quantity }));
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.left}>
@@ -67,6 +93,17 @@ const Product = () => {
       </div>
     </div>
   );
+};
+
+export const getServerSideProps = async ({ params }) => {
+  const res = await axios.get(
+    `http://localhost:3000/api/products/${params.id}`
+  );
+  return {
+    props: {
+      pizza: res.data,
+    },
+  };
 };
 
 export default Product;

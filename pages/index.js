@@ -8,7 +8,6 @@ import PizzaList from "@/components/PizzaList";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Head>
         <title>LuLu&apos;s Pizza</title>
         <meta name="description" content="Best Pizza in Chicago" />
