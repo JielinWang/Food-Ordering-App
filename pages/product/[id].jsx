@@ -2,13 +2,15 @@ import styles from "../../styles/Product.module.css";
 import Image from "next/image";
 import { useState } from "react";
 import axios from "axios";
-import { set } from "mongoose";
+import { useDispatch } from "react-redux";
+import { addProduct } from "../../redux/cartSlice";
 
 const Product = ({ pizza }) => {
-  const [size, setSize] = useState(0);
   const [price, setPrice] = useState(pizza.prices[0]);
-  const [extras, setExtras] = useState([]);
+  const [size, setSize] = useState(0);
   const [quantity, setQuantity] = useState(1);
+  const [extras, setExtras] = useState([]);
+  const dispatch = useDispatch();
 
   const changePrice = (number) => {
     setPrice(price + number);
