@@ -1,9 +1,9 @@
 import dbConnect from "../../../util/mongo";
-import Product from "../../../models/Product";
-import Order from "/models/Order";
+import Order from "../../../models/Order";
 
-export default async function handler(req, res) {
+const handler = async (req, res) => {
   const { method } = req;
+
   await dbConnect();
 
   if (method === "GET") {
@@ -22,4 +22,6 @@ export default async function handler(req, res) {
       res.status(500).json(err);
     }
   }
-}
+};
+
+export default handler;
