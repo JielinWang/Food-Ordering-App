@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+import axios from "axios";
 import styles from "../styles/Cart.module.css";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,7 +8,7 @@ import {
   PayPalButtons,
   usePayPalScriptReducer,
 } from "@paypal/react-paypal-js";
-import axios from "axios";
+
 import { useRouter } from "next/router";
 import { reset } from "../redux/cartSlice";
 import OrderDetail from "../components/OrderDetail";
