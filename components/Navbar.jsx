@@ -40,12 +40,19 @@ const Navbar = () => {
         </ul>
       </div>
       <Link href="/cart" passHref>
-        <div className={styles.item}>
-          <div className={styles.cart}>
-            <Image src="/img/cart.png" alt="cart_logo" width={35} height={35} />
-            <div className={styles.counter}>{quantity}</div>
+        <a>
+          <div className={styles.item}>
+            <div className={styles.cart}>
+              <Image
+                src="/img/cart.png"
+                alt="cart_logo"
+                width={35}
+                height={35}
+              />
+              <div className={styles.counter}>{quantity}</div>
+            </div>
           </div>
-        </div>
+        </a>
       </Link>
     </div>
   );
