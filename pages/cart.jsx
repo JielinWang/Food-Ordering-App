@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import styles from "../styles/Cart.module.css";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
@@ -167,7 +168,7 @@ const Cart = () => {
               <PayPalScriptProvider
                 options={{
                   "client-id":
-                    "Afq1tJDoBFfDPWtO-6P4-9YlQz8J1ZRzOelz4yLKP14k-VvtKE6a9-8H5GtU_hx9ijLrC3OfTFYKgVNj",
+                    "AV98ip6ZCVb7Tx0xH9AOgjMMqrfpqRLCuTCA12rmGRgDeQnwHoCnc7tFbNxo_7wS-QTGLhJ5-8A4LWcB",
                   components: "buttons",
                   currency: "USD",
                   "disable-funding": "credit,card,p24",
