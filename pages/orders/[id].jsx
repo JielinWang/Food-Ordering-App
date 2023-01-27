@@ -117,6 +117,8 @@ const Order = ({ order }) => {
   );
 };
 
+export default Order;
+
 export const getServerSideProps = async ({ params }) => {
   const res = await axios.get(`http://localhost:3000/api/orders/${params.id}`);
   return {
@@ -124,4 +126,3 @@ export const getServerSideProps = async ({ params }) => {
   };
 };
 
-export default Order;
