@@ -117,6 +117,8 @@ const Index = ({ orders, products }) => {
   );
 };
 
+export default Index;
+
 export const getServerSideProps = async (ctx) => {
   const myCookie = ctx.req?.cookies || "";
 
@@ -140,4 +142,4 @@ export const getServerSideProps = async (ctx) => {
   };
 };
 
-export default Index;
+
