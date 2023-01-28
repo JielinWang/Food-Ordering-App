@@ -48,7 +48,7 @@ Once you have set up the environment variables, you can safely run the applicati
 - Database: [MongoDB](https://www.mongodb.com/)
 - Secondary Storage: [cloudinary](https://imagekit.io/cloudinary-alternative/?utm_source=google&utm_medium=cpc&utm_campaign=cloudinary-alternative&gclid=Cj0KCQiAic6eBhCoARIsANlox86kTNO1sArCY3wVliofqjaKRWohCyZtsSzpvsMj2l2xeUYZDUF9nnkaAv-2EALw_wcB)
 - Payment Getaway: [Stripe](https://stripe.com/)
-- Authorization and Authentication: [cookies]([https://jwt.io/](https://auth0.com/docs/manage-users/cookies)
+- Authorization and Authentication: [cookies](https://auth0.com/docs/manage-users/cookies)
 
 ## Images
 
