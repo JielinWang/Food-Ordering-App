@@ -52,21 +52,21 @@ Once you have set up the environment variables, you can safely run the applicati
 
 ## Images of the App
 
-[Home](<img width="1439" alt="Screenshot 2023-01-27 at 6 42 08 PM" src="https://user-images.githubusercontent.com/94776104/215232395-e7cc4c55-84df-4054-9ed1-5963308a4a23.png">)
+Home<img width="1439" alt="Screenshot 2023-01-27 at 6 42 08 PM" src="https://user-images.githubusercontent.com/94776104/215232395-e7cc4c55-84df-4054-9ed1-5963308a4a23.png">
 
-[PizzaList](<img width="1426" alt="Screenshot 2023-01-27 at 6 43 28 PM" src="https://user-images.githubusercontent.com/94776104/215232423-511b82fe-5961-4555-8bd0-62c7967ddf94.png">)
+PizzaList<img width="1426" alt="Screenshot 2023-01-27 at 6 43 28 PM" src="https://user-images.githubusercontent.com/94776104/215232423-511b82fe-5961-4555-8bd0-62c7967ddf94.png">
 
-[AdminLogin Page](<img width="1405" alt="Screenshot 2023-01-27 at 6 43 50 PM" src="https://user-images.githubusercontent.com/94776104/215232495-5426ce7c-2421-4be8-805d-e344fe6ce411.png">)
+AdminLogin Page<img width="1405" alt="Screenshot 2023-01-27 at 6 43 50 PM" src="https://user-images.githubusercontent.com/94776104/215232495-5426ce7c-2421-4be8-805d-e344fe6ce411.png">
 
-[Admin Page](<img width="1427" alt="Screenshot 2023-01-27 at 6 44 40 PM" src="https://user-images.githubusercontent.com/94776104/215232531-e424a257-0ebe-4c73-9803-13e03a14122d.png">)
+Admin Page<img width="1427" alt="Screenshot 2023-01-27 at 6 44 40 PM" src="https://user-images.githubusercontent.com/94776104/215232531-e424a257-0ebe-4c73-9803-13e03a14122d.png">
 
-[Pizza Odering Page](<img width="1409" alt="Screenshot 2023-01-27 at 6 46 07 PM" src="https://user-images.githubusercontent.com/94776104/215232569-545718ad-c20f-4584-bda1-db9f4ac90477.png">)
+Pizza Odering Page<img width="1409" alt="Screenshot 2023-01-27 at 6 46 07 PM" src="https://user-images.githubusercontent.com/94776104/215232569-545718ad-c20f-4584-bda1-db9f4ac90477.png">
 
-[Pizza CheckOut Page](<img width="1394" alt="Screenshot 2023-01-27 at 6 53 31 PM" src="https://user-images.githubusercontent.com/94776104/215232595-8e620a68-97ff-43dc-a1e5-dc322d0d84ce.png">)
+Pizza CheckOut Page<img width="1394" alt="Screenshot 2023-01-27 at 6 53 31 PM" src="https://user-images.githubusercontent.com/94776104/215232595-8e620a68-97ff-43dc-a1e5-dc322d0d84ce.png">
 
-[Order Detail Page](<img width="1425" alt="Screenshot 2023-01-27 at 6 54 34 PM" src="https://user-images.githubusercontent.com/94776104/215232652-e3437839-62e1-41a1-85f4-c706b5dd0fc2.png">)
+Order Detail Page<img width="1425" alt="Screenshot 2023-01-27 at 6 54 34 PM" src="https://user-images.githubusercontent.com/94776104/215232652-e3437839-62e1-41a1-85f4-c706b5dd0fc2.png">
 
-[Paypal Payment Page](<img width="1363" alt="Screenshot 2023-01-27 at 6 55 15 PM" src="https://user-images.githubusercontent.com/94776104/215232690-04e56c1d-ae2f-4ced-adc7-a9e89627eb5d.png">)
+Paypal Payment Page<img width="1363" alt="Screenshot 2023-01-27 at 6 55 15 PM" src="https://user-images.githubusercontent.com/94776104/215232690-04e56c1d-ae2f-4ced-adc7-a9e89627eb5d.png">
 
 ## Author
 [Jielin Wang](https://www.linkedin.com/in/jielinwang-/)
